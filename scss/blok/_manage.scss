@@ -1,0 +1,102 @@
+.manage_section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background: #012F34;
+    background-image: url(/img/Group\ 8.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    &__line {
+        width: 48px;
+        height: 4px;
+        background: #f67e7e;
+        margin-bottom: 32px;
+    }
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        color: #fff;
+        margin-bottom: 56px;
+        width: 224px;
+    }
+
+    &__item {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    &_item__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 156%;
+        color: #f67e7e;
+        margin-bottom: 8px;
+    }
+
+    &_item__text {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 167%;
+        color: #fff;
+        opacity: 0.8;
+
+    }
+
+    @media screen and (min-width:768px) {
+        &__title {
+            width: 445px;
+        }
+
+        &__blog {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &__item {
+            display: flex;
+            gap: 23px;
+            text-align: start;
+            margin-bottom: 48px;
+        }
+
+    }
+
+    @media screen and (min-width:1440px) {
+        & {
+            padding-top: 140px;
+            background-image: url(/img/Group\ 8.png);
+            background-repeat: no-repeat;
+            background-position: bottom right;
+        }
+
+        &__blog {
+            display: flex;
+            justify-content: space-between;
+            gap: 124px;
+
+        }
+
+        &__title {
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 100%;
+            color: #fff;
+        }
+
+
+
+
+
+
+
+
+    }
+
+
+}
