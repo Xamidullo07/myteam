@@ -1,0 +1,112 @@
+.diriectors_section {
+
+    padding-top: 88px;
+    padding-bottom: 88px;
+    background: #004047;
+    background-image: url(/img/directors_bcimg1.svg), url(/img/directors_bc_img2.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 48px;
+    }
+  
+
+    &__item {
+        width: 327px;
+        text-align: center;
+        background: #012f34;
+        padding-top: 32px;
+        padding-bottom: 56px;
+        margin-bottom: 52px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__imgs{
+      position: absolute;
+      left: 136px;
+      top: 225px;  
+    }
+
+    &_item__title {
+        margin-top: 16px;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 156%;
+        text-align: center;
+        color: #79c8c7;
+    }
+
+    &_item__text {
+        font-family: var(--font-family);
+        font-style: italic;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: center;
+        color: #fff;
+    }
+
+
+    @media screen and (min-width:768px) {
+        
+    &__list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 11px;
+        
+    }
+
+    &__item{
+        width: 281px;
+        margin: 0;
+        margin-bottom: 76px;
+      
+    }
+
+
+    &__imgs{
+        position: absolute;
+        left: 113px;
+        top: 225px;  
+      }
+    }
+
+    @media screen and (min-width:904px) {
+        &__list{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            
+        }
+
+        &__item{
+            width: 350px;
+            margin: 0;
+            margin-bottom: 40px;
+          
+        }
+
+        &__imgs{
+            position: absolute;
+            left: 147px;
+            top: 225px;  
+          }
+    
+    }
+
+
+
+
+}
